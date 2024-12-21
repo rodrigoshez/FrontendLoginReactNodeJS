@@ -188,6 +188,21 @@
   text-align: center;
 }
 
+.probar-audio-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.Contener_formulario{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
 .form-header-Crear {
   margin: 20px;
@@ -273,6 +288,29 @@
   border-radius: 5px;
 }
 
+.cronometro{
+  margin-top: "10px";
+  padding: 10px;
+  font-size: "20px";
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.contenedor__resultados{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.contenedor__resultados textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
 .submit-button-Crear {
   width: 100%;
   padding: 10px;
@@ -288,6 +326,23 @@
 
 .submit-button-Crear:hover {
   background-color: #11205d;
+}
+
+.probar-button-Probar {
+  width: 100%;
+  padding: 10px;
+  background-color: #1194bb;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  font-family: 'Montserrat Alternates', serif;
+  margin-bottom: 10px;
+}
+
+.probar-button-Probar:hover {
+  background-color: #253c9a;
 }
 
 .submit-button-Cancelar {
